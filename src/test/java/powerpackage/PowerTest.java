@@ -1,8 +1,10 @@
+
 package powerpackage;
 
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class PowerTest {
     @Test
     public void one_raised_to_one_is_one() {
@@ -10,9 +12,7 @@ public class PowerTest {
     }
 
     @Test
-    public void two_raised_to_one_is_two() {
-        assertEquals(Math.calculatePower(2,1),2);
-    }
+    public void two_raised_to_one_is_two() { assertEquals(Math.calculatePower(2,1),2); }
 
     @Test
     public void two_raised_to_two_is_four() {
